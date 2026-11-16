@@ -1,0 +1,60 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-journal
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.sock
+*.tmp
+*.bak
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Local configuration
+config.local.*
